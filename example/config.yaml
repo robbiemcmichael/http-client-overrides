@@ -1,0 +1,8 @@
+version: v1
+logOptions:
+  responses: simple
+  requests: simple
+  requestOverrides: simple
+requestOverrides:
+- match: unreachable.domain
+  override: github.com
