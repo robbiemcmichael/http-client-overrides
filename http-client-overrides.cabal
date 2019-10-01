@@ -1,5 +1,5 @@
 name:                http-client-overrides
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            HTTP client overrides
 description:
   A library for applying overrides to 'ManagerSettings' when using the
