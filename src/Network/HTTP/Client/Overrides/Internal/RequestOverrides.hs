@@ -6,6 +6,7 @@ module Network.HTTP.Client.Overrides.Internal.RequestOverrides
     ) where
 
 import Data.Maybe (fromMaybe)
+import Data.Monoid ((<>))
 
 import qualified Data.ByteString.Char8 as BS
 import Network.HTTP.Client (Request)
