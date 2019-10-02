@@ -11,9 +11,10 @@ module Network.HTTP.Client.Overrides.Internal.Types
     , parseURL
     ) where
 
+import Data.Char (toLower)
 import Data.Either (either)
 import Data.List (intercalate)
-import Data.Char (toLower)
+import Data.Monoid ((<>))
 import GHC.Generics
 import Text.Read (readMaybe)
 
